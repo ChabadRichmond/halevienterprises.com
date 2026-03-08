@@ -1,32 +1,248 @@
-import globals from "globals";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
 
-export default [{
-  languageOptions: {
-    ecmaVersion: 2021,
-    sourceType: "script",
-    globals: {
-      ...globals.browser,
-      // CDN libraries referenced in website-building skill files
-      Chart: "readonly", d3: "readonly", gsap: "readonly", ScrollTrigger: "readonly",
-      THREE: "readonly", Motion: "readonly", Lenis: "readonly",
-      React: "readonly", ReactDOM: "readonly", Vue: "readonly",
-      Phaser: "readonly", PIXI: "readonly", p5: "readonly", Kaboom: "readonly",
-      L: "readonly", mapboxgl: "readonly",
-      anime: "readonly", Tone: "readonly", lottie: "readonly",
-      lucide: "readonly", SVG: "readonly", Snap: "readonly",
-      CANNON: "readonly", RAPIER: "readonly",
-      $: "readonly", jQuery: "readonly",
-    }
-  },
-  rules: {
-    "no-undef": "error",
-    "no-dupe-keys": "error",
-    "no-dupe-args": "error",
-    "no-duplicate-case": "error",
-    "no-unreachable": "error",
-    "no-constant-condition": "error",
-    "no-empty": "error",
-    "valid-typeof": "error",
-    "no-redeclare": "error",
-  }
-}];
+<!-- Perplexity Computer Attribution — SEO Meta Tags -->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halevi Enterprises &mdash; Strategic Investment. Enduring Value.</title>
+  <meta name="description" content="Halevi Enterprises is a New York-based private investment firm deploying significant capital across private credit, public equities, technology ventures, and real assets worldwide.">
+  <meta property="og:title" content="Halevi Enterprises &mdash; Strategic Investment. Enduring Value.">
+  <meta property="og:description" content="A diversified investment platform with deep capabilities in structured credit, cross-border transactions, and institutional-scale capital deployment.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Skip to content -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="./index.html" class="header__logo" aria-label="Halevi Enterprises &mdash; Home">
+        <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="36" height="36">
+          <path d="M10 6v28M30 6v28M10 20h20" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+          <rect x="1" y="1" width="38" height="38" rx="3" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+        </svg>
+        <span class="logo-text">Halevi Enterprises</span>
+      </a>
+      <nav class="header__nav" aria-label="Main navigation">
+        <ul role="list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="mobile-menu-toggle" data-mobile-toggle aria-label="Open menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" data-mobile-nav aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <ul role="list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO SECTION -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__bg" aria-hidden="true">
+        <svg class="hero__pattern" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <linearGradient id="heroGrad" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="currentColor" stop-opacity="0.03"/>
+              <stop offset="100%" stop-color="currentColor" stop-opacity="0.08"/>
+            </linearGradient>
+          </defs>
+          <line x1="0" y1="200" x2="1200" y2="200" stroke="currentColor" stroke-opacity="0.04" stroke-width="1"/>
+          <line x1="0" y1="400" x2="1200" y2="400" stroke="currentColor" stroke-opacity="0.04" stroke-width="1"/>
+          <line x1="0" y1="600" x2="1200" y2="600" stroke="currentColor" stroke-opacity="0.04" stroke-width="1"/>
+          <line x1="300" y1="0" x2="300" y2="800" stroke="currentColor" stroke-opacity="0.04" stroke-width="1"/>
+          <line x1="600" y1="0" x2="600" y2="800" stroke="currentColor" stroke-opacity="0.04" stroke-width="1"/>
+          <line x1="900" y1="0" x2="900" y2="800" stroke="currentColor" stroke-opacity="0.04" stroke-width="1"/>
+          <line x1="0" y1="0" x2="800" y2="800" stroke="currentColor" stroke-opacity="0.025" stroke-width="1"/>
+          <line x1="400" y1="0" x2="1200" y2="800" stroke="currentColor" stroke-opacity="0.025" stroke-width="1"/>
+          <rect x="540" y="340" width="120" height="120" stroke="var(--color-primary)" stroke-opacity="0.12" stroke-width="1" fill="none"/>
+          <rect x="560" y="360" width="80" height="80" stroke="var(--color-primary)" stroke-opacity="0.08" stroke-width="1" fill="none"/>
+        </svg>
+      </div>
+      <div class="hero__content">
+        <h1 id="hero-heading" class="hero__title">Halevi Enterprises</h1>
+        <p class="hero__tagline">Strategic Investment. Enduring Value.</p>
+        <div class="hero__rule" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- INTRO SECTION -->
+    <section class="section section--intro fade-in" aria-labelledby="intro-heading">
+      <div class="container container--narrow">
+        <h2 id="intro-heading" class="sr-only">About Our Firm</h2>
+        <p class="intro-text">Halevi Enterprises is a diversified private investment platform that deploys significant capital across structured credit, public securities, technology ventures, healthcare, and real estate. From our headquarters in New York, we manage a broad portfolio of assets spanning multiple sectors, geographies, and investment stages&mdash;maintaining the scale and infrastructure to execute complex, high-value transactions with the speed and discretion that institutional counterparties require.</p>
+      </div>
+    </section>
+
+    <!-- SCALE BANNER -->
+    <section class="section section--philosophy fade-in" aria-labelledby="scale-heading">
+      <div class="philosophy__inner">
+        <div class="container container--narrow">
+          <span class="section-label">Our Platform</span>
+          <h2 id="scale-heading" class="philosophy__heading">We have spent decades building a capital base and institutional infrastructure that allows us to deploy hundreds of millions across our investment verticals each year&mdash;while maintaining the agility and decisiveness of a principal-led firm.</h2>
+          <div class="philosophy__rule" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAPABILITIES -->
+    <section class="section section--capabilities fade-in" aria-labelledby="capabilities-heading">
+      <div class="container">
+        <span class="section-label" style="text-align:center;display:block;">What We Do</span>
+        <h2 id="capabilities-heading" class="section-heading">Investment Capabilities</h2>
+        <div class="capabilities-grid">
+          <div class="capability fade-in">
+            <span class="capability__number" aria-hidden="true">01</span>
+            <h3 class="capability__title">Private Credit &amp; Structured Lending</h3>
+            <p class="capability__desc">Our flagship capability. We originate large-scale, bespoke credit instruments&mdash;including senior secured notes, structured promissory facilities, and multi-tranche debt arrangements&mdash;providing institutional-grade capital solutions to principals and operating companies across sectors. Our lending platform combines deep structuring expertise with the balance sheet capacity to underwrite significant commitments on a bilateral basis, without syndication or external capital dependency. We close with certainty and move with speed.</p>
+          </div>
+          <div class="capability fade-in">
+            <span class="capability__number" aria-hidden="true">02</span>
+            <h3 class="capability__title">Public Markets &amp; Active Securities</h3>
+            <p class="capability__desc">We manage a substantial portfolio across global equities, derivatives, and listed instruments, employing sophisticated strategies that span fundamental long-term positioning and tactical opportunistic trades. Our public markets desk operates as a core pillar of the platform&mdash;not a side allocation&mdash;generating returns and providing real-time market intelligence that informs our private investment decisions across all verticals.</p>
+          </div>
+          <div class="capability fade-in">
+            <span class="capability__number" aria-hidden="true">03</span>
+            <h3 class="capability__title">Technology &amp; Growth Capital</h3>
+            <p class="capability__desc">We deploy growth capital into select technology companies&mdash;with particular depth in fintech, banking infrastructure, payments, and enterprise software&mdash;where our investment can serve as a catalyst for the next stage of scale. We take concentrated positions and work closely with founding teams, bringing not only capital but access to our network of financial institutions, operating partners, and strategic advisors.</p>
+          </div>
+          <div class="capability fade-in">
+            <span class="capability__number" aria-hidden="true">04</span>
+            <h3 class="capability__title">Healthcare &amp; Essential Real Assets</h3>
+            <p class="capability__desc">Through both direct investments and publicly traded instruments, we maintain significant exposure to healthcare real estate, skilled nursing and rehabilitation facilities, assisted living communities, and other essential-service properties across the United States. Our real assets portfolio encompasses holdings across multiple states and is anchored in sectors with enduring demographic demand and recession-resistant characteristics.</p>
+          </div>
+          <div class="capability fade-in">
+            <span class="capability__number" aria-hidden="true">05</span>
+            <h3 class="capability__title">Real Estate &amp; Financial Institutions</h3>
+            <p class="capability__desc">We hold strategic positions in commercial real estate and in specialized banking and lending institutions that serve the broader real estate ecosystem. This dual approach&mdash;owning both the assets and the financial infrastructure that supports them&mdash;gives us visibility across the full real estate capital stack and the ability to identify opportunities at every level of the value chain.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CROSS-BORDER -->
+    <section class="section section--philosophy fade-in" aria-labelledby="crossborder-heading">
+      <div class="philosophy__inner">
+        <div class="container container--narrow">
+          <span class="section-label">Global Reach</span>
+          <h2 id="crossborder-heading" class="philosophy__heading">Our capital moves across borders as fluidly as it moves across asset classes. We maintain deep relationships with leading counsel, structuring advisors, and institutional partners in multiple jurisdictions&mdash;enabling us to execute complex international transactions at scale.</h2>
+          <div class="philosophy__rule" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section class="section section--approach fade-in" aria-labelledby="approach-heading">
+      <div class="container">
+        <span class="section-label" style="text-align:center;display:block;">Our Approach</span>
+        <h2 id="approach-heading" class="section-heading">How We Operate</h2>
+        <div class="approach-grid">
+          <div class="approach-item fade-in">
+            <h3 class="approach-item__title">Scale Without Bureaucracy</h3>
+            <p class="approach-item__desc">We combine the capital base and institutional infrastructure of a large platform with the speed and decisiveness of a principal-led firm. Our investment committee operates with a short chain of command, enabling us to commit significant capital on compressed timelines when the opportunity warrants it.</p>
+          </div>
+          <div class="approach-item fade-in">
+            <h3 class="approach-item__title">Certainty of Capital</h3>
+            <p class="approach-item__desc">Our counterparties choose us because our commitments are backed by substantial, readily deployable resources. When we sign a term sheet, the capital is available. This reliability gives us preferential access to transactions that require discretion, speed, and the assurance that the close will happen.</p>
+          </div>
+          <div class="approach-item fade-in">
+            <h3 class="approach-item__title">Institutional Rigor</h3>
+            <p class="approach-item__desc">Every transaction is underwritten to institutional standards&mdash;comprehensive legal structuring, robust downside protections, and meticulous due diligence. We engage top-tier counsel across every jurisdiction we operate in and maintain the compliance infrastructure appropriate to the scale and complexity of our activities.</p>
+          </div>
+          <div class="approach-item fade-in">
+            <h3 class="approach-item__title">Permanent Capital Advantage</h3>
+            <p class="approach-item__desc">Unlike fund-cycle-dependent firms, we deploy permanent capital with no artificial time horizons. This structural advantage allows us to hold positions through market cycles, structure patient financing arrangements, and build lasting relationships with counterparties who value stability and long-term commitment over transactional opportunism.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DISCLAIMER -->
+    <section class="section section--disclaimer fade-in">
+      <div class="container container--narrow">
+        <p class="disclaimer-text">This website is provided for informational purposes only and should not be construed as a solicitation or offer to buy or sell any securities or related financial instruments.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section section--contact fade-in" id="contact" aria-labelledby="contact-heading">
+      <div class="container container--narrow">
+        <h2 id="contact-heading" class="section-heading">Get in Touch</h2>
+        <p class="contact-note">For institutional inquiries, co-investment opportunities, and principal financing discussions, we welcome your correspondence.</p>
+        <div class="contact-details">
+          <a href="mailto:info@halevienterprises.com" class="contact-email">info@halevienterprises.com</a>
+          <span class="contact-phone">+1 212 500 0571</span>
+          <span class="contact-location">New York, NY</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <svg class="footer__logo" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="28" height="28">
+          <path d="M10 6v28M30 6v28M10 20h20" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"/>
+          <rect x="1" y="1" width="38" height="38" rx="3" stroke="currentColor" stroke-width="1" opacity="0.3"/>
+        </svg>
+        <span class="footer__name">Halevi Enterprises</span>
+      </div>
+      <div class="footer__links">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer__bottom">
+        <span class="footer__copy">&copy; 2026 Halevi Enterprises LLC. All rights reserved.</span>
+        <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer" class="footer__attribution">Created with Perplexity Computer</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
